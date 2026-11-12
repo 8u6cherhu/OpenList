@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - fix/transcode-user-base-path
+      - ci/publish-pathfix-image
     paths:
       - ".github/workflows/publish-fork-docker.yml"
       - "Dockerfile"
